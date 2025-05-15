@@ -1,0 +1,99 @@
+/* Сброс стандартных отступов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Хедер */
+header {
+    background-color: #005b99;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+    header nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        header nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+            header nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+/* Контейнер для основного контента */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+/* Заголовки */
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Стили для блоков задач */
+.journal-block {
+    background-color: #ffffff;
+    border: 2px solid #0077cc;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease;
+    text-align: left;
+}
+
+    .journal-block:hover {
+        transform: translateY(-4px);
+    }
+
+    .journal-block h3 {
+        color: #0077cc;
+        margin-top: 0;
+        font-size: 22px;
+    }
+
+    .journal-block p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+/* Футер */
+footer {
+    background-color: #eee;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
